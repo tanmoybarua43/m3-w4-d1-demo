@@ -1,0 +1,15 @@
+@media screen {
+  .myclass {
+    color: green;
+  }
+}
+@media screen and (max-width: 980px) {
+  .myclass {
+    color: blue;
+  }
+}
+@media print {
+  .myclass {
+    color: black;
+  }
+}

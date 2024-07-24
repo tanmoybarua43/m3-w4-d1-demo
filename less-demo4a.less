@@ -1,11 +1,11 @@
 .myclass {
-    @media screen {
+   @media screen {
        color: blue;
-       @media (min-width: 980px) {
-          color: green;
-       }
-    }
-    @media mytext {
+   }
+   @media screen and (max-width: 980px) {
+       color: green;
+   }
+   @media print {
        color: black;
-    }
- }
+   }
+}
